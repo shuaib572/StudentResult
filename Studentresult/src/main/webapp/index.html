@@ -1,0 +1,217 @@
+
+<html>
+<head>
+	<style>
+		/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styles */
+header {
+  background-color: #F068CF;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #da5ebb37;
+}
+
+/* Showcase styles */
+#showcase {
+  background-image: url('https://picsum.photos/960/400');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#showcase h2 {
+  font-size: 48px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+}
+
+#showcase p {
+  font-size: 24px;
+  margin: 0 0 20px;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+}
+
+#showcase .button {
+  display: inline-block;
+  background-color: #a9b7f400;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#showcase .button:hover {
+  background-color: skyblue;
+  color: #F068CF;
+}
+
+/* Services styles */
+#services {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+#services h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#services p {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+#services ul {
+  list-style: disc;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+#services li {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* Contact styles */
+#contact {
+  background-color: #F5F5F5;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#contact label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+#contact textarea {
+  height: 150px;
+}
+
+		</style>
+	<title>University Result Management System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>University Result Management System</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="admin.html">Admin</a></li>
+					<li><a href="StudentReg.html">Student</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="showcase">
+		<div class="container">
+			<h2>Welcome to the University Result Management System</h2>
+			<p>Get access to your exam results quickly and easily with our user-friendly system.</p>
+			<a href="search.html" class="button">Search your Result</a>
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container">
+			<h2>Our Services</h2>
+			<p>We offer the following services:</p>
+			<ul>
+				<li>Exam result search</li>
+				<li>Exam result printing</li>
+				<li>Course registration</li>
+				<li>Student profile management</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Us</h2>
+			<form>
+				<label>Name</label>
+				<input type="text" placeholder="Enter your name">
+				<label>Email</label>
+				<input type="email" placeholder="Enter your email">
+				<label>Message</label>
+				<textarea placeholder="Enter your message"></textarea>
+				<button type="submit" class="button">Send</button>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 University Result Management System</p>
+	</footer>
+</body>
+</html>
+

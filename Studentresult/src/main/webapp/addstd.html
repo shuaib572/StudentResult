@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<style>
+		body {
+			background-color: #F5F5F5;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+		
+		form {
+			background-color: #FFFFFF;
+			border: 1px solid #CCCCCC;
+			margin: 0 auto;
+			max-width: 400px;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 28px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		
+		input[type="text"], input[type="password"] {
+			border: 1px solid #CCCCCC;
+			padding: 10px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		
+		input[type="submit"], input[type="reset"] {
+			background-color: #4CAF50;
+			border: none;
+			color: #FFFFFF;
+			cursor: pointer;
+			padding: 10px 20px;
+			margin-top: 10px;
+			width: 100%;
+		}
+		
+		input[type="submit"]:hover, input[type="reset"]:hover {
+			background-color: #3E8E41;
+		}
+		
+		a {
+			color: #000000;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<form action="addstd.jsp" method="post">
+		<h1>Student Add Form</h1>
+		Student Roll Number<input type="text" name="roll" required>
+		Student name<input type="text" name="sname">
+		Student Father Name<input type="text" name="fname">
+		Sctudent Course<input type="text" name="course">
+		Branh<input type="text" name="bname">
+		Student Gender<input type="text" name="gn">
+		<input type="submit" name="addstd">
+		<input type="reset" value="Reset">
+		<a herf="adminHome.html">back</a>
+	</form>
+</body>
+</html>
